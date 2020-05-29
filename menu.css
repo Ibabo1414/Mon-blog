@@ -6,7 +6,6 @@
   	left: 0;
   	z-index: 2;
 }
-
 .toggler{
 	position: absolute;
 	top: 0.5rem;
@@ -18,7 +17,6 @@
 	z-index: 3;
 	cursor: pointer;
 }
-
 .hamburger{
   position: absolute;
   top: 0.5rem;
@@ -32,7 +30,6 @@
   align-items: center;
   z-index: 2;
 }
-
 .hamburger>div{
   position: absolute;
   width: 60%;
@@ -56,27 +53,19 @@
  top: -10px;
 
 }
-
 .hamburger>div:after{
  top: 10px;
-
 }
-
 .toggler:checked + .hamburger>div{
  transform: rotate(135deg);
-
 }
-
 .toggler:checked:hover + .hamburger>div{
  transform: rotate(225deg);
-
 }
-
 .toggler:checked + .hamburger>div:after, .toggler:checked + .hamburger>div:before{
 	 transform: rotate(90deg);
 	 top: 0;
 }
-
 .toggler:checked ~ .menu{
 	 visibility: visible;
 }
@@ -88,7 +77,6 @@
 .toggler:checked ~ .menu > div > div{
 	 opacity: 1;
 }
-
 .menu{
 	 position: fixed;
 	 top: 0;
@@ -139,7 +127,6 @@
 	transition: .1s;
 	text-align: center;
 }
-
 .menu > div > div > ul > li > a:hover{
 	color: #fff;	
 }

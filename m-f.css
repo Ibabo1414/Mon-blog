@@ -10,7 +10,7 @@
   font-size: 1.1em;
 }
 }
-/*---------------------------------PHASE DES PRE-INSCRIPTIONS-----------------------*/
+/*---------------------------PHASE DES PRE-INSCRIPTIONS-------------------*/
 @media screen and (min-width: 320px) and (max-width: 568px) {
 #moimeme{
   height:56em;
@@ -21,7 +21,6 @@
   font-size: 12px;
   margin-bottom: 3.1em;
  }
-
 .proposphrase > p{
   font-size: 12px;
   text-align: justify;
@@ -84,8 +83,8 @@
     margin-left: -0.5em;
     font-size: 12px;
     margin-bottom: 3.1em;
-   }
-  
+  }
+
   .proposphrase > p{
     font-size: 12px;
     text-align: justify;
@@ -280,8 +279,7 @@
     margin-bottom: 0.1em;
   }
 }
-
-/*--------------------------DEROULEMENT DES COURS À L'ECOLE 241-------------------------*/
+/*--------------------------DEROULEMENT DES COURS À L'ECOLE 241--------------------*/
 @media screen and (min-width: 320px) and (max-width: 568px) {
   #moimeme-2{
     height:46em;
@@ -415,7 +413,7 @@
       margin-bottom: 0.1em;
     }
   }
-/*--------------------------LA NOUVELLE ANNÉE 2020 À L'ECOLE 241-------------------------*/
+/*--------------------------LA NOUVELLE ANNÉE 2020 À L'ECOLE 241--------------------*/
 @media screen and (min-width: 320px) and (max-width: 568px) {
   #moimeme-3{
     height:46em;
@@ -549,7 +547,7 @@
       margin-bottom: 0.1em;
     }
   }
-/*--------------------------LA NUIT DES IDÉES : ECOLE 241 (2020)-------------------------*/
+/*--------------------------LA NUIT DES IDÉES : ECOLE 241 (2020)---------------------*/
 @media screen and (min-width: 320px) and (max-width: 568px) {
   #moimeme-4{
     height:46em;
@@ -682,7 +680,7 @@
       margin-bottom: 0.1em;
     }
   }
-/*-----------LA SAINT VALENTIN CITOYENNE (LES RESEAUX SOCIAUX) : ECOLE 241 (2020)-------------*/
+/*-----------LA SAINT VALENTIN CITOYENNE (LES RESEAUX SOCIAUX) : ECOLE 241 (2020)-----------*/
 @media screen and (min-width: 320px) and (max-width: 568px) {
   #moimeme-5{
     height:46em;
@@ -815,7 +813,7 @@
       margin-bottom: 0.1em;
     }
   }
-/*-------------mon footer----------------- */
+/*-------------mon footer---------------- */
 @media (max-width: 600px) {
   .footer-distributed .footer-left, .footer-distributed .footer-right {
     text-align: center;
