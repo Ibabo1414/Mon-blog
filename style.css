@@ -1,0 +1,645 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  /*font-family: "montserrat",sans-serif;*/
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+ font-family: "Roboto", sans-serif;
+}
+/*----------------------mon header---------------------*/
+.container{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+  background: url("assets/youri.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 1.4s linear;
+  animation: container 1.3s ease-in 1.5s forwards;
+}
+
+.container:before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content{
+  max-width: 700px;
+  padding-top: 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.content h1{
+  font-size: 40px;
+  margin-bottom: 0.4rem;
+  color:  #CD5C5C;
+  transition: all 1.0s linear;
+  animation: h1 1.5s ease-in 1.5s forwards;
+}
+
+.content p{
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 100; 
+  transition: all .6s linear;
+  animation: p 1.5s ease-in 1.5s forwards;
+}
+
+.btn{
+  padding: 0.75rem 1.25rem;
+  margin-top: .8rem;
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: #fff44f;
+  background-color: #111;
+  transition: .3s;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  opacity: 0.7;
+}
+/*---------------------------------PHASE DES PRE-INSCRIPTIONS-----------------------*/
+#moimeme{
+  height:107em;
+  background-color: #C0C0C0;
+  transition: all 1.4s linear;
+  animation: moimeme 1.3s ease-in 1.5s forwards;
+}
+#aproposdemoi{
+  margin-left: 2em;
+  color: #CD5C5C;
+  padding-top: 3em;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+  transition: all 1.4s linear;
+  animation: aproposdemoi 1.3s ease-in 1.5s forwards;
+}
+.proposphrase > p{
+  margin-left: 2em;
+  margin-bottom: 2em;
+  color: #000;
+  margin-right: 30px;
+  font-size: 23px;
+  text-align: justify;
+  font-family: "Lobster", cursive;
+}
+.first-section{
+  margin-top: 5em;
+}
+
+.firstphrase{
+  margin-left: 3.5em;
+  margin-top: 1em;
+  color: #CD5C5C;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+}
+.founder{
+  display: flex;
+}
+
+.founder > img{
+  margin-top: 3em;
+  width: 30em;
+  height: 30em;
+  margin-left: 5em;
+  background-color: #0D0707;
+  border: 4px solid #fff;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.founder > img:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.founder2{
+  color: #000;
+  font-size: 23px;
+  margin-left: 7em;
+  text-align: justify;
+  margin-top: 7em;
+  margin-right: 4em;
+  font-family: "Lobster", cursive;
+}
+.img-inscription{
+  margin-top: 4em;
+  margin-left: 5em;
+  background-color: #0D0707;
+  border: 4px solid #fff;
+  margin-right: 5.9em;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+}
+.phase-1 > img{
+  margin-top: 0.3em;
+  width: 16.8em;
+  height: 12em;
+  background-color: #0D0707;
+  border: 3px solid #FF8C00;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-1 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-2 > img{
+  width: 16.8em;
+  height: 12em;
+  background-color: #0D0707;
+  border: 3px solid #FF8C00;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.phase-2 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+
+.phase-3 > img{
+  width: 16.8em;
+  height: 12em;
+  margin-bottom: 0.1em;
+  background-color: #0D0707;
+  border: 3px solid #FF8C00;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-3 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+
+.phase-1 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-2 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-3 > img:first-child{
+  margin-left: 0.4em;
+}
+/*--------------------------DEROULEMENT DES COURS À L'ECOLE 241-------------------------*/
+#moimeme-2{
+  height:92em;
+  background-color: #2F4F4F;
+  transition: all 1.4s linear;
+  animation: moimeme 1.3s ease-in 1.5s forwards;
+  margin-top: -5em;
+}
+#moimeme-2 > .img-inscription{
+  border: 4px solid #4B7900;
+}
+.first-phrase{
+  margin-left: 2em;
+  padding-top: 4em;
+  color: #CD5C5C;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+}
+.cours-241{
+  display: flex;
+  padding-top: 4.5em;
+}
+
+.cours-241 > img{
+  width: 30em;
+  height: 30em;
+  margin-left: 5em;
+  background-color: #0D0707;
+  border: 4px solid #4B7900;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.cours-241 > img:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.phase-1-2 > img{
+  margin-top: 0.3em;
+  width: 16.8em;
+  height: 12em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-1-2 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-2-2 > img{
+  width: 16.8em;
+  height: 12em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-2-2 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-3-2 > img{
+  width: 16.8em;
+  height: 12em;
+  margin-bottom: 0.1em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-3-2 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+
+.phase-1-2 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-2-2 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-3-2 > img:first-child{
+  margin-left: 0.4em;
+}
+/*--------------------------LA NOUVELLE ANNÉE 2020 À L'ECOLE 241-------------------------*/
+#moimeme-3{
+  height:92em;
+  background-color: #C0C0C0;
+  transition: all 1.4s linear;
+  animation: moimeme 1.3s ease-in 1.5s forwards;
+  margin-top: -5em;
+}
+#moimeme-3 > .img-inscription{
+  border: 4px solid #5635CE;
+}
+.first-phrase-3{
+  margin-left: 3.5em;
+  padding-top: 4em;
+  color: #CD5C5C;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+}
+.annee-2020{
+  display: flex;
+  padding-top: 1.4em;
+}
+
+.annee-2020 > img{
+  margin-top: 3em;
+  width: 30em;
+  height: 30em;
+  margin-left: 5em;
+  background-color: #0D0707;
+  border: 4px solid #5635CE;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.annee-2020 > img:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.phase-1-3 > img{
+  margin-top: 0.3em;
+  width: 16.8em;
+  height: 13em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-1-3 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-2-3 > img{
+  width: 16.8em;
+  height: 13em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-2-3 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-3-3 > img{
+  width: 16.8em;
+  height: 13em;
+  margin-bottom: 0.1em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-3-3 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+
+.phase-1-3 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-2-3 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-3-3 > img:first-child{
+  margin-left: 0.4em;
+}
+/*--------------------------LA NUIT DES IDÉES : ECOLE 241 (2020)-------------------------*/
+#moimeme-4{
+  height:92em;
+  background-color: #2F4F4F;
+  transition: all 1.4s linear;
+  animation: moimeme 1.3s ease-in 1.5s forwards;
+  margin-top: -5em;
+}
+#moimeme-4 > .img-inscription{
+  border: 4px solid #C68300;
+}
+.first-phrase-4{
+  margin-left: 3.5em;
+  padding-top: 4em;
+  color: #CD5C5C;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+}
+.nuit-des-idees-2020{
+  display: flex;
+  padding-top: 1.4em;
+}
+
+.nuit-des-idees-2020 > img{
+  margin-top: 3em;
+  width: 30em;
+  height: 30em;
+  margin-left: 5em;
+  background-color: #0D0707;
+  border: 4px solid #C68300;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.nuit-des-idees-2020> img:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.phase-1-4 > img{
+  margin-top: 0.3em;
+  width: 16.8em;
+  height: 12em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-1-4 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-2-4 > img{
+  width: 16.8em;
+  height: 12em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-2-4 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-3-4 > img{
+  width: 16.8em;
+  height: 12em;
+  margin-bottom: 0.1em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-3-4 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-1-4 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-2-4 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-3-4 > img:first-child{
+  margin-left: 0.4em;
+}
+
+/*-----------LA SAINT VALENTIN CITOYENNE (LES RESEAUX SOCIAUX) : ECOLE 241 (2020)-------------*/
+#moimeme-5{
+  height:92em;
+  background-color: #C0C0C0;
+  transition: all 1.4s linear;
+  animation: moimeme 1.3s ease-in 1.5s forwards;
+  margin-top: -5em;
+}
+#moimeme-5 > .img-inscription{
+  border: 4px solid #EA1DC1;
+}
+.first-phrase-5{
+  padding-top: 4em;
+  color: #CD5C5C;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -1.2em;
+}
+.la-saint-valentin-2020{
+  display: flex;
+  padding-top: 1.4em;
+}
+
+.la-saint-valentin-2020 > img{
+  margin-top: 3em;
+  width: 30em;
+  height: 30em;
+  margin-left: 5em;
+  background-color: #0D0707;
+  border: 4px solid #EA1DC1;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.la-saint-valentin-2020 > img:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.phase-1-5 > img{
+  margin-top: 0.3em;
+  width: 16.8em;
+  height: 12em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-1-5 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-2-5 > img{
+  width: 16.8em;
+  height: 12em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-2-5 > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-3-5 > img{
+  width: 16.8em;
+  height: 12em;
+  margin-bottom: 0.1em;
+  background-color: #0D0707;
+  border: 3px solid #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.phase-3-5  > img:hover{
+  -webkit-transform: scale(1.80);
+  transform: scale(1.80);
+}
+.phase-1-5 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-2-5 > img:first-child{
+  margin-left: 0.4em;
+}
+.phase-3-5 > img:first-child{
+  margin-left: 0.4em;
+}
+/*---------------------------------mon footer----------------------- */
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 10px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #CD5C5C;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-size: 11px;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 15px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-right a:hover{
+  transform:scale(1.1); 
+  -webkit-transform:scale(1.1);
+}
+.footer-distributed p.footer-links a:hover{
+  text-decoration:underline;
+}
