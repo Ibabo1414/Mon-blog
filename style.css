@@ -472,7 +472,7 @@ body{
 .phase-3-4 > img:first-child{
   margin-left: 0.4em;
 }
-/*-----------LA SAINT VALENTIN CITOYENNE (LES RESEAUX SOCIAUX) : ECOLE 241 (2020)------------*/
+/*----------LA SAINT VALENTIN CITOYENNE (LES RESEAUX SOCIAUX) : ECOLE 241 (2020)----------*/
 #moimeme-5{
   height:92em;
   background-color: #C0C0C0;
@@ -561,7 +561,7 @@ body{
 .phase-3-5 > img:first-child{
   margin-left: 0.4em;
 }
-/*----------------------------mon footer----------------------- */
+/*------------------------mon footer------------------- */
 .footer-distributed {
   background-color: #292c2f;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -571,14 +571,11 @@ body{
   font: normal 16px sans-serif;
   padding: 45px 50px;
 }
-
 .footer-distributed .footer-left p {
   color: #8f9296;
   font-size: 10px;
   margin: 0;
 }
-/* Footer links */
-
 .footer-distributed p.footer-links {
   font-size: 18px;
   font-weight: bold;
@@ -634,7 +631,6 @@ body{
   border-color: #5e2ced;
 color:white;
 }
-
 .footer-distributed p.footer-links a:hover{
   text-decoration:underline;
 }
