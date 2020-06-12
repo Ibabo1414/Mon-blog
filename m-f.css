@@ -45,7 +45,22 @@ h2 {
   margin-top: 5.70em;
 }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 987px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  #funder .wrapper .img-grid > img {
+    margin-left: -2em;
+    }
+  figcaption{
+    margin-left: -3em;
+    margin-top: 5.70em;
+  }
+  }
+@media screen and (max-width: 769px) {
 .img-grid {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -60,7 +75,7 @@ figcaption{
   margin-top: 5.70em;
 }
 }
-@media screen and (max-width: 651px) {
+@media screen and (max-width:741px) {
 .img-grid {
   grid-template-columns: repeat(3, 1fr);
 }
