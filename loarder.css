@@ -12,7 +12,7 @@
   align-items: center;
 }
 .tout.hidden {
-  animation: fadeOut 4s;
+  animation: fadeOut 1s;
   animation-fill-mode: forwards;
 }
 @keyframes fadeOut {
